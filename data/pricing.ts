@@ -14,14 +14,16 @@ export interface PriceRow {
 
 /** ข้อมูลตัวอย่าง / ต้อง Validate จาก Marketplace scraping จริง */
 export const priceRows: PriceRow[] = [
-  { brand: "Import D", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 55, pricePerPiece: 5.5, absorption: "ปานกลาง", channel: "Shopee", promoPrice: 49, rating: 3.4, tier: "Economy" },
-  { brand: "Private label F", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 70, pricePerPiece: 7.0, absorption: "ปานกลาง", channel: "Lazada", promoPrice: 62, rating: 3.9, tier: "Value" },
-  { brand: "Thai C", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 80, pricePerPiece: 8.0, absorption: "ดี", channel: "ร้านยา", promoPrice: 75, rating: 4.0, tier: "Value" },
-  { brand: "JP/KR B", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 110, pricePerPiece: 11.0, absorption: "ดี", channel: "ออนไลน์", promoPrice: 99, rating: 4.3, tier: "Mid" },
-  { brand: "Medical E", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 120, pricePerPiece: 12.0, absorption: "สูง", channel: "B2B/รพ.", promoPrice: 115, rating: 4.1, tier: "Medical" },
-  { brand: "Premium A", type: "Overnight", size: "L", piecesPerPack: 10, packPrice: 160, pricePerPiece: 16.0, absorption: "สูงมาก", channel: "Modern trade", promoPrice: 145, rating: 4.6, tier: "Premium" },
-  { brand: "Import D", type: "กางเกง", size: "M", piecesPerPack: 10, packPrice: 60, pricePerPiece: 6.0, absorption: "ปานกลาง", channel: "TikTok Shop", promoPrice: 52, rating: 3.5, tier: "Economy" },
-  { brand: "Premium A", type: "กางเกง", size: "M", piecesPerPack: 10, packPrice: 150, pricePerPiece: 15.0, absorption: "สูง", channel: "Modern trade", promoPrice: 139, rating: 4.5, tier: "Premium" },
+  { brand: "An-An", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 55, pricePerPiece: 5.5, absorption: "ปานกลาง", channel: "Shopee", promoPrice: 49, rating: 3.4, tier: "Economy" },
+  { brand: "OEM / แบรนด์ห้าง", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 50, pricePerPiece: 5.0, absorption: "ปานกลาง", channel: "Lotus's/Big C", promoPrice: 45, rating: 3.5, tier: "Economy" },
+  { brand: "Fitti Adult", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 65, pricePerPiece: 6.5, absorption: "ปานกลาง", channel: "Lazada", promoPrice: 59, rating: 3.8, tier: "Value" },
+  { brand: "Certis", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 70, pricePerPiece: 7.0, absorption: "ดี", channel: "ร้านยา", promoPrice: 65, rating: 3.7, tier: "Value" },
+  { brand: "Certainty", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 90, pricePerPiece: 9.0, absorption: "ดี", channel: "ร้านยา/ออนไลน์", promoPrice: 82, rating: 4.2, tier: "Mid" },
+  { brand: "MamyPoko Adult", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 120, pricePerPiece: 12.0, absorption: "ดีมาก", channel: "ออนไลน์", promoPrice: 109, rating: 4.4, tier: "Mid" },
+  { brand: "Depend", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 140, pricePerPiece: 14.0, absorption: "สูง", channel: "ร้านยา", promoPrice: 129, rating: 4.3, tier: "Premium" },
+  { brand: "Lifree", type: "Overnight", size: "L", piecesPerPack: 10, packPrice: 150, pricePerPiece: 15.0, absorption: "สูงมาก", channel: "Modern trade/ออนไลน์", promoPrice: 139, rating: 4.6, tier: "Premium" },
+  { brand: "Tena", type: "เทป", size: "L", piecesPerPack: 10, packPrice: 160, pricePerPiece: 16.0, absorption: "สูงมาก", channel: "B2B/รพ.", promoPrice: 152, rating: 4.5, tier: "Medical" },
+  { brand: "Dr.Pants", type: "กางเกง", size: "M", piecesPerPack: 10, packPrice: 90, pricePerPiece: 9.0, absorption: "ดี", channel: "TikTok Shop/Subscription", promoPrice: 79, rating: 4.1, tier: "Mid" },
 ];
 
 export const tierBenchmark = [

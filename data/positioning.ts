@@ -25,11 +25,13 @@ export const positioningOptions: PositioningOption[] = [
 
 /** Positioning map: X = Price (1-10), Y = Trust/Quality (1-10) */
 export const positioningMap = [
-  { name: "Premium A", x: 9, y: 9, color: "#A855F7" },
-  { name: "JP/KR B", x: 6, y: 7, color: "#38BDF8" },
-  { name: "Thai C", x: 4, y: 6, color: "#94A3B8" },
-  { name: "Import D", x: 2, y: 3, color: "#EF4444" },
-  { name: "Medical E", x: 7, y: 7, color: "#F59E0B" },
+  { name: "Lifree", x: 9, y: 9, color: "#7C3AED" },
+  { name: "Tena", x: 9, y: 9, color: "#16A34A" },
+  { name: "MamyPoko", x: 7, y: 8, color: "#DB2777" },
+  { name: "Certainty", x: 5, y: 7, color: "#2563EB" },
+  { name: "Fitti", x: 3, y: 5, color: "#EA580C" },
+  { name: "An-An", x: 2, y: 4, color: "#EF4444" },
+  { name: "Dr.Pants", x: 5, y: 6, color: "#F59E0B" },
   { name: "เรา (เป้าหมาย)", x: 6, y: 8, color: "#22C55E" },
 ];
 

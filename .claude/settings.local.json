@@ -4,7 +4,13 @@
       "Bash(git --version)",
       "Bash(git config *)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'Initial commit: Thailand Adult Diaper & Bedridden Care Market Research Dashboard *)",
+      "Bash(git remote *)",
+      "Bash(git ls-remote *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(npm audit *)",
+      "Bash(npm run *)"
     ]
   }
 }

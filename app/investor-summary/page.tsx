@@ -95,8 +95,9 @@ export default function InvestorSummary() {
             <CardBody>
               <h4 className="mb-2 text-sm font-bold text-ink">คู่แข่งหลัก & ราคา</h4>
               <p className="text-sm text-ink-soft">
-                ตลาดกระจาย: Premium นำเข้า (~16฿) / JP-KR กลาง (~11฿) / Thai local (~8฿) /
-                นำเข้าถูก (~5.5฿). ช่องว่าง = "คุณภาพดีในราคาเข้าถึงได้ + จุดต่าง Caregiver/Overnight"
+                Certainty นำตลาด (~24%, Mass ~9฿) · กลุ่มญี่ปุ่น Lifree/MamyPoko ครอง Premium (~12-15฿) ·
+                Tena/Depend เกรดการแพทย์ · An-An/Fitti/OEM แข่งราคาล่าง (~5-6฿). ช่องว่าง = "คุณภาพดี
+                ราคากลาง + Subscription/Caregiver" ที่ผู้นำยังไม่ได้เป็นเจ้าของ
               </p>
             </CardBody>
           </Card>
